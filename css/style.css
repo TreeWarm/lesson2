@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+.container {
+	width: 1280px;
+    margin: 0 auto;
+    outline: 1px solid #000;
+}
+
+.main-header {
+    background-color: #445162;
+    min-height: 323px;
+    color: #fff;
+}
+
+.main-header:after {
+	content: '';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.main-header-wrp {
+	float: left;
+	padding: 50px 50px 0 50px;
+}
+
+.main-header-title {
+	font-size: 60px;
+    font-weight: 400;
+	margin: 0 0 20px 0;
+}
+
+.main-header-list {
+	margin: 0;
+	list-style-type: none;
+}
+
+.main-header-list-item {
+	position: relative;
+	font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.main-header-list-item:before {
+	content: "";
+	display: block;
+	width: 25px;
+	height: 19px;
+	background-image: url(../img/check_icon.png);
+	background-size: cover;
+	position: absolute;
+	top: 8px;
+	left: -36px;
+
+}
+
+.main-header-img {
+	display: block;
+	padding: 50px 50px 50px 0px;
+	float: right;
+	color: #000;
+}
+
+.about-product {
+	background-color: #ffffff;
+    min-height: 350px;
+}
+
+.about-wrp {
+	float: left;
+	padding: 50px 0 0 50px;
+	max-width: 660px;
+
+}
+
+.about-title {
+	margin: 0 0 30px 0;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #445161;
+
+}
+
+.about-paragraph {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	margin: 20px 0 20px 0;
+	color: #333333;
+}
+
+.img-video {
+    display: block;
+	float: right;
+	margin: 50px 50px 50px 0px;
+}
+
+.dignity{
+	width: 100%;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #f5f5f5;
+}
+
+.dignity-title {
+  width: 100%;
+  display: block;
+  margin: 0 0 29px 0;
+  text-align: center;
+}
+
+.dignity-item-wrp {
+  width: 45%;
+}
+
+.dignity-item {
+  width: 100%;
+  min-height: 30px;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 50px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.dignity-item-title {
+  display: block;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.dignity-item-title::-webkit-details-marker {
+  display: none;
+}
+
+.dignity-item-title:before {
+  content: "+";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #445161;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 25px;
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+
+.screenshots {
+
+}
+
